@@ -100,3 +100,60 @@ body{
     width: 40px;
     cursor: pointer;
 }
+
+/* mobile phone */
+
+@media screen and (max-width: 767px) {
+    .container{
+        margin: 20% 8%;
+        width: 85%;
+    }
+    .heading h1{
+        line-height: 28px;
+        font-size: 28px;
+    } 
+    .heading p{
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    .container button{
+        font-size: 12px;
+        font-weight: 200;
+        border-radius: 5px;
+        margin-top: 31px;
+        padding: 12px 18px;
+    }
+    .container button img{
+        width: 15px;
+        margin-right: 3px;
+    }
+    .display{
+        display: block;
+        align-items: center;
+        width: 75%;
+        margin-top: 25px;
+        padding-top: 25px;
+    }
+    .display-left input{
+        font-size: 12px;
+        padding-left: 8px;
+    }
+    .display-right input{
+        padding-left: 8px;
+        font-size: 12px;
+    }
+    .display-right{
+        margin-left: 0;
+        margin-top: 10px;
+        padding: 5px 0px;
+    }
+    .display-left{
+       padding: 5px 0px;
+    }
+    .display-left img{
+        width: 35px;
+    }
+    .display-right img{
+        width: 35px;
+    }
+}
